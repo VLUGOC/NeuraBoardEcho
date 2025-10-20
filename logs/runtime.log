@@ -1,0 +1,336 @@
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: backup con recompensa 2.0
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 47, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 3 | Promedio: 5.00 | 📊 Aún pocos datos para detectar tendencia
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 5 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 8 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 10 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 12 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 14 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: backup con recompensa 2.0
+📘 Ciclos: 16 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 18 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 20 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 22 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 24 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 26 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 28 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 30 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0
+📘 Ciclos: 31 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+[NeuraBoard] 🐜 Ant-Colony RL ejecutó acción: backup con recompensa 2.0
+📘 Ciclos: 33 | Promedio: 5.00 | ⚖️ Estable
+[NeuraBoard] 🧠 Iniciando núcleo NeuraBoardEco...
+[NeuraBoard] ⚙️ Cargando módulos principales...
+[NeuraBoard] ✅ Sistema operativo y estable.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 42, in <module>
+    log(f"🐜 Ant-Colony RL ejecutó acción: {choice} con recompensa {reward}")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 44, in <module>
+    log(f"Ant-RL skip: {e}")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 33, in <module>
+    start_system()
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 25, in start_system
+    log("🧠 Iniciando núcleo NeuraBoardEco...")
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 20, in log
+    data["logs"].append({"msg": message, "ts": time.time()})
+    ~~~~^^^^^^^^
+KeyError: 'logs'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 13, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 13, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 13, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/NeuraBoardEco/core/orchestrator.py", line 22, in <module>
+    from core.metrics import LearningMetrics
+ModuleNotFoundError: No module named 'core.metrics'
