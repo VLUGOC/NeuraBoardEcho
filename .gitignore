@@ -19,6 +19,7 @@ token.json
 __pycache__/
 *.pyc
 nohup.out
+*.save
 
 # === Datos y logs locales ===
 logs/
