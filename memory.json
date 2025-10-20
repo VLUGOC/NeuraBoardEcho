@@ -1,73 +1,12 @@
 {
-  "ant_rl": {
-    "pheromones": {
-      "idle": {
-        "backup": 1.8763778820241361,
-        "optimize_cpu": 10.0,
-        "analyze_market": 0.494750640449808
-      },
-      "boot_cycle": {
-        "optimize_cpu": 1.0242343145200195
-      }
-    }
-  },
-  "metrics_history": [
-    {
-      "timestamp": 1760989407.191789,
-      "reward": 5.0
-    }
-  ],
-  "logs": [
-    {
-      "msg": "🧠 Iniciando núcleo NeuraBoardEco...",
-      "time": "Mon Oct 20 15:00:16 2025"
-    },
-    {
-      "msg": "⚙️ Cargando módulos principales...",
-      "time": "Mon Oct 20 15:00:16 2025"
-    },
-    {
-      "msg": "✅ Sistema operativo y estable.",
-      "time": "Mon Oct 20 15:00:16 2025"
-    },
-    {
-      "msg": "🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0",
-      "time": "Mon Oct 20 15:00:17 2025"
-    },
-    {
-      "msg": "🧠 Iniciando núcleo NeuraBoardEco...",
-      "time": "Mon Oct 20 15:02:23 2025"
-    },
-    {
-      "msg": "⚙️ Cargando módulos principales...",
-      "time": "Mon Oct 20 15:02:24 2025"
-    },
-    {
-      "msg": "✅ Sistema operativo y estable.",
-      "time": "Mon Oct 20 15:02:24 2025"
-    },
-    {
-      "msg": "🐜 Ant-Colony RL ejecutó acción: optimize_cpu con recompensa 5.0",
-      "time": "Mon Oct 20 15:02:24 2025"
-    }
-  ],
+  "logs": [],
+  "agents": {},
+  "ant_rl": {},
+  "metrics_history": [],
   "metrics": {
-    "total_cycles": 12,
-    "rewards": [
-      5.0,
-      5.0,
-      4.629334443184196,
-      -1.65234398048116,
-      4.934851827476529,
-      3.644616001481058,
-      3.2348933493093046,
-      3.388549764990837,
-      -0.8527762717447072,
-      0.6594566160760618,
-      4.760609396611119,
-      1.6011219854252863
-    ]
+    "total_cycles": 0,
+    "rewards": []
   },
-  "last_update": "Mon Oct 20 15:02:29 2025",
-  "last_test": "reasonybank_ok"
+  "last_update": null,
+  "last_test": null
 }

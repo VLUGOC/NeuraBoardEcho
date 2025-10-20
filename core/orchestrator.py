@@ -1,111 +1,76 @@
 # -*- coding: utf-8 -*-
 """
 NeuraBoardEco - Core Orchestrator
-Versión estable 2025-10-20
+Versión: 2025-10-20
 Autor: vlugoc
 Descripción:
-  Núcleo principal del sistema NeuraBoardEco. Ejecuta el ciclo
-  de aprendizaje basado en refuerzo tipo colonia de hormigas (Ant-RL),
-  mantiene memoria global y registra métricas del entorno.
+  Núcleo principal del sistema NeuraBoardEco.
+  Controla el flujo de arranque, memoria global,
+  aprendizaje basado en refuerzo tipo colonia de hormigas (Ant-RL),
+  registro de métricas, seguridad y beneficio humano.
 """
 
-import os
 import time
 import json
-import subprocess
-import shutil
 from pathlib import Path
 from rich import print
 
-# Importación de módulos internos
+# --- Módulos internos ---
 from eco_ant.pheromones import PheromoneTable
 from core.metrics import LearningMetrics
+from sandbox.virtual_env import VirtualEnv
+from core.security import SecurityCore
+from core.purpose import HumanPurpose
+from core.integrations.knowledge_api import KnowledgeIntegrator
 
-# Rutas base
-HOME = Path.home()
-ROOT = HOME / "NeuraBoardEco"
+# ---------- Rutas ----------
+ROOT = Path.home() / "NeuraBoardEco"
 MEM_PATH = ROOT / "memory.json"
-LOGS = ROOT / "logs"
+LOGS_PATH = ROOT / "logs"
+LOGS_PATH.mkdir(parents=True, exist_ok=True)
 
 
-# -------------------------------------------------
-# Inicialización y logging
-# -------------------------------------------------
+# ---------- Inicialización de memoria ----------
 def init_memory():
-    """Inicializa memoria y estructura de carpetas."""
-    ROOT.mkdir(parents=True, exist_ok=True)
-    LOGS.mkdir(parents=True, exist_ok=True)
+    """Crea archivo de memoria global si no existe."""
     if not MEM_PATH.exists():
-        MEM_PATH.write_text(
-            json.dumps({"logs": [], "ant_rl": {}}, ensure_ascii=False, indent=2),
-            encoding="utf-8"
-        )
+        MEM_PATH.write_text(json.dumps({"logs": [], "agents": []}, indent=2), encoding="utf-8")
 
 
+# ---------- Logger ----------
 def log(message: str):
-    """Registra un evento en memoria.json y lo imprime en consola."""
-    data = {}
-    if MEM_PATH.exists():
-        try:
-            data = json.loads(MEM_PATH.read_text(encoding="utf-8"))
-        except Exception:
-            data = {"logs": []}
-    else:
-        data = {"logs": []}
-
-    data.setdefault("logs", []).append({"msg": message, "time": time.ctime()})
-    MEM_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    """Registra un mensaje en memoria y lo imprime."""
+    init_memory()
+    with open(MEM_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    data["logs"].append({"msg": message, "time": time.strftime("%Y-%m-%d %H:%M:%S")})
+    with open(MEM_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"[NeuraBoard] {message}")
 
 
-# -------------------------------------------------
-# Ejecutor de acciones (dispatcher)
-# -------------------------------------------------
-def do_action(choice: str) -> float:
-    """
-    Ejecuta una acción real y devuelve una recompensa (float).
-    Mantener acciones seguras y reversibles.
-    """
-    reward = 1.0
-
-    if choice == "backup":
-        dst = ROOT / "backups"
-        dst.mkdir(parents=True, exist_ok=True)
-        cmd = (
-            "tar -czf {}/cfg_$(date +%Y%m%d_%H%M%S).tgz "
-            "-C $HOME .bashrc .profile 2>/dev/null || true"
-        ).format(dst)
-        code = subprocess.call(cmd, shell=True)
-        ok = any(dst.glob("cfg_*.tgz"))
-        reward = 3.0 if ok and code == 0 else 0.5
-
-    elif choice == "optimize_cpu":
-        shutil.rmtree(os.path.expanduser("~/.cache/pip"), ignore_errors=True)
-        reward = 5.0
-
-    elif choice == "analyze_market":
-        data = {}
-        if MEM_PATH.exists():
-            try:
-                data = json.loads(MEM_PATH.read_text(encoding="utf-8"))
-            except Exception:
-                data = {"logs": []}
-        data.setdefault("logs", []).append(
-            {"msg": "Market tick (sim)", "time": time.ctime()}
-        )
-        MEM_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-        reward = 1.5
-
+# ---------- Acciones del sistema ----------
+def do_action(action: str) -> float:
+    """Ejecuta una acción simbólica del sistema."""
+    if action == "optimize_cpu":
+        log("🧩 Optimizando recursos del sistema...")
+        time.sleep(0.5)
+        return 5.0
+    elif action == "backup":
+        log("💾 Realizando respaldo de memoria...")
+        time.sleep(0.5)
+        return 2.0
+    elif action == "analyze":
+        log("🔍 Analizando entorno virtual...")
+        time.sleep(0.5)
+        return 3.0
     else:
-        reward = 0.2  # acción desconocida (exploración)
+        log(f"⚠️ Acción desconocida: {action}")
+        return 0.2
 
-    return reward
 
-
-# -------------------------------------------------
-# Bucle principal
-# -------------------------------------------------
-if __name__ == "__main__":
+# ---------- Ciclo principal ----------
+def main():
     init_memory()
     log("🧠 Iniciando núcleo NeuraBoardEco...")
     time.sleep(0.3)
@@ -113,30 +78,45 @@ if __name__ == "__main__":
     time.sleep(0.3)
     log("✅ Sistema operativo y estable.")
 
-    # Configuración del agente Ant-RL
-    actions = ["optimize_cpu", "backup", "analyze_market"]
-    ant = PheromoneTable(
-        tau0=0.1, rho=0.05, alpha=1.0, beta=1.0, epsilon=0.1, persist_in_memory=True
-    )
+    # --- Inicialización de módulos ---
+    ant = PheromoneTable(tau0=0.1, rho=0.05, alpha=1.0, beta=1.0, epsilon=0.1)
+    metrics = LearningMetrics()
+    sec = SecurityCore()
+    purpose = HumanPurpose()
+    integrator = KnowledgeIntegrator()
 
-    # Estado simple, puede ampliarse
+    actions = ["optimize_cpu", "backup", "analyze"]
+    heuristic = {"optimize_cpu": 1.1, "backup": 1.0, "analyze": 0.9}
     state = "boot_cycle"
-    heuristic = {"optimize_cpu": 1.1, "backup": 1.0, "analyze_market": 1.0}
 
-    # Selección y ejecución
+    # --- Bucle principal ---
     choice = ant.choose_action(state, actions, heuristic)
     reward = do_action(choice)
-    ant.deposit([(state, choice)], reward)
 
+    # Seguridad: verifica integridad de APIs
+    sec.verify_api("https://api.nasa.gov")
+
+    # Integración simbólica de conocimiento (IA aprende de su entorno)
+    knowledge = integrator.fetch_wikipedia("Artificial_intelligence")
+    if knowledge:
+        log("📚 Nueva información integrada: Wikipedia → AI")
+
+    # Depósito de feromonas
+    ant.deposit([(state, choice)], reward)
+    metrics.register_cycle(reward)
+    metrics.adaptive_adjustment(ant)
+
+    # Evaluar beneficio humano
+    purpose.evaluate_action(choice, reward)
+
+    # Simulación del entorno
+    env = VirtualEnv(cycles=3)
+    env.run()
+
+    print(metrics.summary())
     log(f"🐜 Ant-Colony RL ejecutó acción: {choice} con recompensa {reward}")
 
-    # Métricas de aprendizaje
-    metrics = LearningMetrics()
-    metrics.register_cycle(reward)
-    print(metrics.summary())
 
-from sandbox.virtual_env import VirtualEnv
-
+# ---------- Ejecución ----------
 if __name__ == "__main__":
-    env = VirtualEnv(cycles=10)
-    env.run()
+    main()

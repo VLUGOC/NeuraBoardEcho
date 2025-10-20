@@ -1,0 +1,25 @@
+# === Secrets (local-only) ===
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.der
+*.jks
+*.keystore
+*.cer
+*.csr
+credentials.json
+token.json
+.env
+*.env
+
+# === Entornos / compilados / binarios ===
+.venv/
+__pycache__/
+*.pyc
+nohup.out
+
+# === Datos y logs locales ===
+logs/
+data/finance/
