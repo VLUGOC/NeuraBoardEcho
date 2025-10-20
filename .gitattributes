@@ -1,0 +1,3 @@
+logs/* merge=ours
+nohup.out merge=ours
+memory.json merge=ours
