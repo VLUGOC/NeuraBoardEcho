@@ -3,10 +3,7 @@
   "agents": {},
   "ant_rl": {},
   "metrics_history": [],
-  "metrics": {
-    "total_cycles": 0,
-    "rewards": []
-  },
+  "metrics": { "total_cycles": 0, "rewards": [] },
   "last_update": null,
   "last_test": null
 }
