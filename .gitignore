@@ -27,3 +27,6 @@ nohup.out
 # === Datos y logs locales ===
 logs/
 data/finance/
+
+# Backups del autorefiner
+*.bak.*
