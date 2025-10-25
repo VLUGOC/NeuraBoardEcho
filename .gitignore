@@ -19,7 +19,10 @@ token.json
 __pycache__/
 *.pyc
 nohup.out
+<<<<<<< HEAD
 *.save
+=======
+>>>>>>> 6b0b22d (chore: resolve conflicts; ignore secrets/logs/venv; cleanup)
 
 # === Datos y logs locales ===
 logs/
